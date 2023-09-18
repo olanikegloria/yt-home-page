@@ -1,13 +1,13 @@
 .category-container {
     margin-top: 3rem;
-    margin-left: 8rem;
+    margin-left: 13.5rem;
     margin-right: 2rem;
     padding-right: 5rem;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     position: fixed;
     z-index: 100;
     background-color: white;
@@ -37,8 +37,8 @@
   font-size: 15px;
   margin: 0 5px;
   white-space: nowrap; /* Prevent button content from wrapping */
-  overflow: hidden; /* Hide overflowing content */
-  text-overflow: ellipsis; /* Add ellipsis (...) for long content */
+
+  
   display: inline-block; /* Display buttons inline to allow width adjustment */
 }
 @media (max-width: 768px) {

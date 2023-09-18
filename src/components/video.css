@@ -79,6 +79,7 @@
 
   .video-details-container {
     max-width: 100%;
+    margin-bottom: 2rem;
   }
   .video-details {
    padding-left: 2rem;
