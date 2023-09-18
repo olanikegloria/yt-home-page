@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side-bar-icon {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.icon-container {
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.tom {
+    border-radius: 100%;
+    width: 2rem;
+}
+
+.side-bar {
+    overflow-y: scroll;
+    height: 700px;
+    margin-right:4rem;
+    width: 200px;
+    position: fixed;
+    top: 60px;
+}
+
+.subscriptions {
+    margin-top: 2rem;
+}
