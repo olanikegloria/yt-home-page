@@ -1,0 +1,58 @@
+.category-container {
+    margin-top: 3rem;
+    margin-left: 13.5rem;
+    margin-right: 2rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+/* .category {
+    background-color: gainsboro;
+    padding: 8px 12px;
+    width: auto;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+} */
+
+.category {
+  background-color: gainsboro;
+  padding: 8px 12px;
+  min-height: 30px; /* Set a minimum height for the buttons */
+  width: auto; /* Let the width adjust based on content */
+  align-self: center;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 5px;
+  white-space: nowrap; /* Prevent button content from wrapping */
+
+  
+  display: inline-block; /* Display buttons inline to allow width adjustment */
+}
+@media (max-width: 768px) {
+      .category {
+        background-color: gainsboro;
+        padding: 4px 15px;
+        align-self: center;
+        border-radius: 15px;
+        font-size: 12px;
+    }
+
+    .category-container{
+      margin-left: 0;
+      margin-top: 2.3rem;
+      padding-top: 1rem;
+    }
+  }
